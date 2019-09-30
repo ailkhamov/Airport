@@ -125,6 +125,7 @@ while True:
             flight_3.removePassanger(del_passanger)
             if True:
                 choice = int(input("Enter choice again:"))
+        
     # elif choice ==4:
     #     choose_flight = int(input("Which flight would you like a modify passenger from?: "))
     #     passanger = input("Enter the passanger's detail you with to modify")

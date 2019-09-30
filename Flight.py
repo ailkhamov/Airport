@@ -54,6 +54,11 @@ class Flight():
             if passanger in item:
                 self.passanger_list = newpass
         return self.passanger_list
+    
+    def add_passanger_ToFlight(self,f_name, l_name,dob, email,):
+        passanger_to_add = [f_name, l_name, dob, email]
+        self.passanger_list.append(passanger_to_add)
+        
 
     
     

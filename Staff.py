@@ -9,6 +9,6 @@ class Staff(People):
         
 
     def show(self):
-        return (f' Staff id: {self.staffid} Full name {self.firstname} {self.lastname}, E:mail: {self.email} Date of Birth: {self.dob} Role: {self.role}')
+        return ([f' Staff id: {self.staffid} Full name {self.firstname} {self.lastname}, E:mail: {self.email} Date of Birth: {self.dob} Role: {self.role}'])
     
     
